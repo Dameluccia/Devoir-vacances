@@ -5,10 +5,20 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+      font-family: "Roboto";
+      color:#333333;
  }
-
+ .boldtext{
+   font-weight:bold;
+ }
+#taillestart{
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+}
 header{
-  height: 50px;
+
   background-color: #222222;
 }
  .menu{
@@ -19,8 +29,7 @@ header{
   display: inline-block;
 }
 .menu li a{
-color:#607789;
-text-decoration: none;
+color:grey;
 padding-right: 20px;
 line-height: 50px;
 vertical-align: middle;
@@ -36,9 +45,6 @@ main{
   padding-bottom: 20px;
 
 }
-/*.menugauche{
-  border: 1px grey solid;
-}*/
 #b1 {
   border-radius: 5px 5px 0px 0px;
   border-bottom: 0;
@@ -68,7 +74,6 @@ main{
   padding: 10px;
 }
 .section1 ul li a{
-  text-decoration: none;
    color : #414141;
 }
 
@@ -80,31 +85,64 @@ main{
 }
 .section2{
   width: 75%;
-  padding: 0 25px 0 25px;
+  padding: 0 0 50px 75px;
   display: inline-block;
 }
 .borduretexte{
   border-radius: 0px 0px 5px 5px;
   border-top: 0;
   border: 1px #DDDDDD solid;
-
-
-
+}
+.textearticle{
+  margin: auto;
+  width: 96%;
+  padding: 10px 0 10px 0;
+}
+.paddingtexte{
+  padding: 15px 0 15px 0;
+}
+.textebleu{
+  color : #2E6EA5;
 }
 .price{
   float: right;
+  font-weight:normal;
+}
+#spanreview{
+  float: right;
+}
+.etoilerose{
+  color : #D17581;
 }
 .button{
+  margin: 25px 25px 0;
+  padding: 10px;
   float: right;
   background-color: #5CB85C;
   border-radius: 5px;
+  color: white;
 }
 .commentaire{
   border-radius: 5px;
   border-top: 0;
   border: 1px #DDDDDD solid;
   margin-top: 20px;
+  background-color: #F5F5F5;
 }
+.divcommentaire{
+  margin: 30px 15px;
+  border-top: 1px solid #DDDDDD;
+}
+.p1hr{
+  padding-top: 30px;
+}
+footer{
+  border-top: 1px solid #DDD;
+}
+footer p{
+  margin: 50px 0 50px 0;
+}
+
 #clear{
   clear: both;
 }

@@ -5,14 +5,14 @@
     <title>Le titre du document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
      <header>
        <nav>
          <ul class="menu">
-          <li><a href="#">Start bootstrap</a></li>
+          <li id="taillestart"><a href="#">Start Bootstrap</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
@@ -30,35 +30,49 @@
                    </ul>
                 </div>
        </section>
+
        <section class="section2">
         <article>
-            <div class="borduretexte">
+         <div class="borduretexte">
+          <div>
             <img src="http://placehold.it/800x300">
-            <h3>Product Name
-              <span class="price">$24.99</span>
-            </h3>
-              <p>See more snippets like these online store reviews at
-                <a href="http://bootsnipp.com">Bootsnipp - http://bootsnipp.com.</a>
+          </div>
+          <div class="textearticle">
+            <h3 class="textebleu">Product Name<span class="price">$24.99</span></h3>
+            <p class="paddingtexte">See more snippets like these online store reviews at
+            <a href="http://bootsnipp.com" class="textebleu">Bootsnipp - http://bootsnipp.com.</a>
+            </p>
+            <p>Want to make these reviews work? check out
+            <a href="#"  class="boldtext textebleu">this building a review system tutorial</a>
+            over at maxoffsky.com!
+            </p>
+            <p class="paddingtexte">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+               do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+               deserunt mollit anim id est laborum.
+            </p>
+              <p class="etoilerose">
+                <i class="fa fa-star etoilerose"></i>
+                <i class="fa fa-star etoilerose"></i>
+                <i class="fa fa-star etoilerose"></i>
+                <i class="fa fa-star etoilerose"></i>
+                <i class="fa fa-star-o etoilerose"></i>
+                4.0 stars <span class="etoilerose" id="spanreview">3 reviews</span>
               </p>
-              <p>Want to make these reviews work? check out
-                <a href="#">this building a review system tutorial</a>over at maxoffsky.com!
-              </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-              </p>
+            </div>
               </div>
+
            </article>
 
            <article class="commentaire">
-              <button class="button">Leave a review</button>
+              <button class="button">Leave a Review</button>
               <div id="clear"></div>
-             <hr>
-             <p>
+
+             <div class="divcommentaire">
+             <p class="p1hr">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -70,9 +84,9 @@
               This product was great in terms of quality. I would definitely buy another!
             </p>
            </div>
-           <hr>
-           <div>
-             <p>
+
+           <div class="divcommentaire">
+             <p class="p1hr">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -84,9 +98,9 @@
               This product was great in terms of quality. I would definitely buy another!
             </p>
            </div>
-           <hr>
-           <div>
-             <p>
+
+           <div class="divcommentaire">
+             <p class="p1hr">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -100,6 +114,10 @@
            </div>
          </article>
          </section>
+
+         <footer>
+           <p>Copyright © Your Website 2014</p>
+         </footer>
        </main>
 
 
