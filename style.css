@@ -50,14 +50,20 @@ font-size: x-large;
   font-style: normal;
 }
 #b1 {
-  border-radius: 5px 5px 0px 0px;  
+  border-radius: 5px 5px 0px 0px;
   background-color: #2E6EA5;
+  border-right:1px #DDDDDD solid;
+  border-left: 1px #DDDDDD solid;
+  border-top: 1px #DDDDDD solid;
  }
-
-#b1 a {
- color: white;
-
+.section1 ul li:hover{
+  background-color: #2E6EA5;
+  color:white;
 }
+.section1 ul li a:hover{
+  color:white;
+}
+
 #b2{
 
   border-right:1px #DDDDDD solid;
