@@ -43,13 +43,15 @@ main{
 }
 #h2shop{
   padding-bottom: 20px;
-
+  font: caption;
+font-size: x-large;
+}
+#normalsize{
+  font-style: normal;
 }
 #b1 {
-  border-radius: 5px 5px 0px 0px;
-  border-bottom: 0;
+  border-radius: 5px 5px 0px 0px;  
   background-color: #2E6EA5;
-  border: 1px #DDDDDD solid;
  }
 
 #b1 a {
@@ -57,9 +59,9 @@ main{
 
 }
 #b2{
-  /*border-radius: 5px 5px 5px 5px;*/
-  border-top: 0;
-  border: 1px #DDDDDD solid;
+
+  border-right:1px #DDDDDD solid;
+  border-left: 1px #DDDDDD solid;
   color : grey;
 }
 #b3 {
@@ -115,11 +117,12 @@ main{
   color : #D17581;
 }
 .button{
+  font-size: 18px;
   margin: 25px 25px 0;
-  padding: 10px;
+  padding: 8px;
   float: right;
   background-color: #5CB85C;
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
 }
 .commentaire{
